@@ -1,12 +1,7 @@
 package Factories;
 
-import Interfaces.DeviceFactory;
-import Interfaces.Headphones;
-import Interfaces.Keyboard;
-import Interfaces.Mouse;
-import Products.GamingHeadphones;
-import Products.GamingKeyboard;
-import Products.GamingMouse;
+import Interfaces.*;
+import Products.*;
 
 public class GamingDeviceFactory implements DeviceFactory {
     @Override
